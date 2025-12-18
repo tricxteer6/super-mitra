@@ -7,5 +7,4 @@ export default defineConfig({
   plugins: [react()],
   plugins: [tailwindcss()],
   plugins: [react()],
-  base: '/super-mitra/',
 })
