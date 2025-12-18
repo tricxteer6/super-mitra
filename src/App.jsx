@@ -12,7 +12,7 @@ function App() {
       <Route path="/login" element={<Login />} />
 
       <Route
-        path="/super-mitra"
+        path="/"
         element={
           <>
             <Navbar />
