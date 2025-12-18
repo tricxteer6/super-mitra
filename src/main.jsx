@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 import 'remixicon/fonts/remixicon.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/super-mitra">
     <App />
   </BrowserRouter>
 )
