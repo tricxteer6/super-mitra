@@ -11,7 +11,7 @@ function HomePage() {
             <h1 className="lg:text-5xl text-3xl font-medium mb-7">
               Selamat Datang di{" "}
               <span className="font-bold text-5xl text-red-500 underline">
-                Master Kuliner Indonesia
+                Super Mitra Master Kuliner Indonesia
               </span>
             </h1>
 

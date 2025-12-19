@@ -5,6 +5,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 1.0466,
     lng: 121.3687,
+    kota: "Kabupaten Buol",
+    provinsi: "Sulawesi Tengah",
   },
   {
     id: 2,
@@ -12,6 +14,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.112,
     lng: 115.0882,
+    kota: "Kabupaten Buleleng",
+    provinsi: "Bali",
   },
   {
     id: 3,
@@ -19,6 +23,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.9147,
     lng: 107.6098,
+    kota: "Kota Bandung",
+    provinsi: "Jawa Barat",
   },
   {
     id: 4,
@@ -26,6 +32,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.485,
     lng: 106.8,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 5,
@@ -33,6 +41,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -6.595,
     lng: 106.8167,
+    kota: "Kota Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 6,
@@ -40,6 +50,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -2.2096,
     lng: 113.9213,
+    kota: "Kota Palangka Raya",
+    provinsi: "Kalimantan Tengah",
   },
   {
     id: 7,
@@ -47,6 +59,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -2.6846,
     lng: 111.6241,
+    kota: "Kabupaten Kotawaringin Barat",
+    provinsi: "Kalimantan Tengah",
   },
   {
     id: 8,
@@ -54,21 +68,36 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.9222,
     lng: 106.9296,
+    kota: "Kota Sukabumi",
+    provinsi: "Jawa Barat",
   },
-  { id: 9, nama: "IKA", business_category: "DPKB", lat: -7.485, lng: 108.792 },
+  {
+    id: 9,
+    nama: "IKA",
+    business_category: "DPKB",
+    lat: -7.485,
+    lng: 108.792,
+    kota: "Kabupaten Cilacap",
+    provinsi: "Jawa Tengah",
+  },
   {
     id: 10,
     nama: "YULI YULIAWATI",
     business_category: "DCCC",
     lat: -7.2167,
     lng: 107.9,
+    kota: "Kabupaten Garut",
+    provinsi: "Jawa Barat",
   },
+
   {
     id: 11,
     nama: "DIKI ARIYANDI SAPUTRA",
     business_category: "DCCC",
     lat: -6.8595,
     lng: 106.9207,
+    kota: "Kabupaten Sukabumi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 12,
@@ -76,6 +105,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.639,
     lng: 115.2,
+    kota: "Kota Denpasar",
+    provinsi: "Bali",
   },
   {
     id: 13,
@@ -83,6 +114,8 @@ const mitra = [
     business_category: "PCCR",
     lat: 0.1324,
     lng: 117.4854,
+    kota: "Kota Bontang",
+    provinsi: "Kalimantan Timur",
   },
   {
     id: 14,
@@ -90,6 +123,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.545,
     lng: 112.233,
+    kota: "Kabupaten Jombang",
+    provinsi: "Jawa Timur",
   },
   {
     id: 15,
@@ -97,6 +132,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.11,
     lng: 106.15,
+    kota: "Kabupaten Serang",
+    provinsi: "Banten",
   },
   {
     id: 16,
@@ -104,6 +141,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.189,
     lng: 106.625,
+    kota: "Kota Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 17,
@@ -111,6 +150,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -5.3817,
     lng: 105.2531,
+    kota: "Kabupaten Lampung Selatan",
+    provinsi: "Lampung",
   },
   {
     id: 18,
@@ -118,6 +159,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.4465,
     lng: 112.7173,
+    kota: "Kabupaten Sidoarjo",
+    provinsi: "Jawa Timur",
   },
   {
     id: 19,
@@ -125,6 +168,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.316,
     lng: 110.175,
+    kota: "Kabupaten Temanggung",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 20,
@@ -132,13 +177,18 @@ const mitra = [
     business_category: "DCCC",
     lat: -0.0617,
     lng: 100.6556,
+    kota: "Kabupaten Lima Puluh Kota",
+    provinsi: "Sumatera Barat",
   },
+
   {
     id: 21,
     nama: "MEIKA",
     business_category: "DCCC",
     lat: -6.6944,
     lng: 110.8367,
+    kota: "Kabupaten Jepara",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 22,
@@ -146,6 +196,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.9333,
     lng: 107.47,
+    kota: "Kabupaten Bandung Barat",
+    provinsi: "Jawa Barat",
   },
   {
     id: 23,
@@ -153,6 +205,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -6.2,
     lng: 106.7833,
+    kota: "Kota Jakarta Barat",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 24,
@@ -160,6 +214,8 @@ const mitra = [
     business_category: "DCSA",
     lat: 0.5071,
     lng: 101.4478,
+    kota: "Kota Pekanbaru",
+    provinsi: "Riau",
   },
   {
     id: 25,
@@ -167,6 +223,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -3.3683,
     lng: 135.5011,
+    kota: "Kabupaten Nabire",
+    provinsi: "Papua Tengah",
   },
   {
     id: 26,
@@ -174,6 +232,8 @@ const mitra = [
     business_category: "CCRO",
     lat: 1.6666,
     lng: 101.4478,
+    kota: "Kabupaten Bengkalis",
+    provinsi: "Riau",
   },
   {
     id: 27,
@@ -181,6 +241,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.8581,
     lng: 107.9236,
+    kota: "Kabupaten Sumedang",
+    provinsi: "Jawa Barat",
   },
   {
     id: 28,
@@ -188,6 +250,8 @@ const mitra = [
     business_category: "DPKB",
     lat: -2.115,
     lng: 115.02,
+    kota: "Kabupaten Kotawaringin Timur",
+    provinsi: "Kalimantan Tengah",
   },
   {
     id: 29,
@@ -195,6 +259,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -6.804,
     lng: 110.84,
+    kota: "Kabupaten Demak",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 30,
@@ -202,13 +268,18 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.4025,
     lng: 107.4333,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
+
   {
     id: 31,
     nama: "I GUSTI AGUNG AYU ALIT CANDRA DEWI",
     business_category: "PFFR",
     lat: -8.45,
     lng: 115.6167,
+    kota: "Kabupaten Karangasem",
+    provinsi: "Bali",
   },
   {
     id: 32,
@@ -216,6 +287,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.8721,
     lng: 109.0423,
+    kota: "Kabupaten Tegal",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 33,
@@ -223,6 +296,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.485,
     lng: 106.895,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 34,
@@ -230,6 +305,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.418,
     lng: 109.255,
+    kota: "Kabupaten Banyumas",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 35,
@@ -237,6 +314,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.485,
     lng: 106.8,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 36,
@@ -244,6 +323,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -6.25,
     lng: 106.5,
+    kota: "Kabupaten Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 37,
@@ -251,6 +332,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.33,
     lng: 106.9,
+    kota: "Kota Depok",
+    provinsi: "Jawa Barat",
   },
   {
     id: 38,
@@ -258,6 +341,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -7.705,
     lng: 110.606,
+    kota: "Kabupaten Sleman",
+    provinsi: "DI Yogyakarta",
   },
   {
     id: 39,
@@ -265,6 +350,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -8.095,
     lng: 112.165,
+    kota: "Kabupaten Malang",
+    provinsi: "Jawa Timur",
   },
   {
     id: 40,
@@ -272,13 +359,18 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.2833,
     lng: 107.1,
+    kota: "Kabupaten Karawang",
+    provinsi: "Jawa Barat",
   },
+
   {
     id: 41,
     nama: "SRI WAHYUNI",
     business_category: "DCSA",
     lat: 0.5104,
     lng: 101.4478,
+    kota: "Kota Pekanbaru",
+    provinsi: "Riau",
   },
   {
     id: 42,
@@ -286,6 +378,8 @@ const mitra = [
     business_category: "PCCR",
     lat: 2.017,
     lng: 99.0667,
+    kota: "Kabupaten Tapanuli Utara",
+    provinsi: "Sumatera Utara",
   },
   {
     id: 43,
@@ -293,6 +387,8 @@ const mitra = [
     business_category: "PCCR",
     lat: 1.4748,
     lng: 124.8421,
+    kota: "Kota Manado",
+    provinsi: "Sulawesi Utara",
   },
   {
     id: 44,
@@ -300,6 +396,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.8721,
     lng: 109.0423,
+    kota: "Kabupaten Tegal",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 45,
@@ -307,6 +405,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -6.395,
     lng: 106.98,
+    kota: "Kota Depok",
+    provinsi: "Jawa Barat",
   },
   {
     id: 46,
@@ -314,6 +414,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.65,
     lng: 116.53,
+    kota: "Kabupaten Lombok Timur",
+    provinsi: "Nusa Tenggara Barat",
   },
   {
     id: 47,
@@ -321,6 +423,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.705,
     lng: 114.0,
+    kota: "Kabupaten Probolinggo",
+    provinsi: "Jawa Timur",
   },
   {
     id: 48,
@@ -328,6 +432,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.005,
     lng: 110.4381,
+    kota: "Kota Semarang",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 49,
@@ -335,6 +441,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -5.05,
     lng: 105.2,
+    kota: "Kota Bandar Lampung",
+    provinsi: "Lampung",
   },
   {
     id: 50,
@@ -342,13 +450,18 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.095,
     lng: 112.165,
+    kota: "Kabupaten Malang",
+    provinsi: "Jawa Timur",
   },
+
   {
     id: 51,
     nama: "HAESUSI",
     business_category: "DCCC",
     lat: -6.13,
     lng: 106.88,
+    kota: "Kota Jakarta Timur",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 52,
@@ -356,6 +469,8 @@ const mitra = [
     business_category: "DPKB",
     lat: 0.1324,
     lng: 117.4854,
+    kota: "Kota Bontang",
+    provinsi: "Kalimantan Timur",
   },
   {
     id: 53,
@@ -363,6 +478,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 0.3667,
     lng: 101.2,
+    kota: "Kabupaten Kampar",
+    provinsi: "Riau",
   },
   {
     id: 54,
@@ -370,6 +487,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -7.9666,
     lng: 112.6326,
+    kota: "Kota Malang",
+    provinsi: "Jawa Timur",
   },
   {
     id: 55,
@@ -377,6 +496,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.65,
     lng: 115.2167,
+    kota: "Kota Denpasar",
+    provinsi: "Bali",
   },
   {
     id: 56,
@@ -384,6 +505,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.9147,
     lng: 107.6098,
+    kota: "Kota Bandung",
+    provinsi: "Jawa Barat",
   },
   {
     id: 57,
@@ -391,14 +514,26 @@ const mitra = [
     business_category: "MHRE",
     lat: -2.9909,
     lng: 104.7566,
+    kota: "Kota Palembang",
+    provinsi: "Sumatera Selatan",
   },
-  { id: 58, nama: "EGA", business_category: "CCRO", lat: -7.07, lng: 110.35 },
+  {
+    id: 58,
+    nama: "EGA",
+    business_category: "CCRO",
+    lat: -7.07,
+    lng: 110.35,
+    kota: "Kabupaten Semarang",
+    provinsi: "Jawa Tengah",
+  },
   {
     id: 59,
     nama: "ANANDA ANING PRADITA",
     business_category: "DPKB",
     lat: -7.767,
     lng: 110.293,
+    kota: "Kabupaten Bantul",
+    provinsi: "DI Yogyakarta",
   },
   {
     id: 60,
@@ -406,13 +541,18 @@ const mitra = [
     business_category: "CCRO",
     lat: -7.9666,
     lng: 112.6326,
+    kota: "Kota Malang",
+    provinsi: "Jawa Timur",
   },
+
   {
     id: 61,
     nama: "DEVITA CHANIA",
     business_category: "DCCC",
     lat: -2.9909,
     lng: 104.7566,
+    kota: "Kota Palembang",
+    provinsi: "Sumatera Selatan",
   },
   {
     id: 62,
@@ -420,6 +560,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.348,
     lng: 106.58,
+    kota: "Kota Tangerang Selatan",
+    provinsi: "Banten",
   },
   {
     id: 63,
@@ -427,6 +569,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.13,
     lng: 106.88,
+    kota: "Kota Jakarta Timur",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 64,
@@ -434,6 +578,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.485,
     lng: 106.895,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 65,
@@ -441,6 +587,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.7,
     lng: 106.8,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 66,
@@ -448,6 +596,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.112,
     lng: 115.0882,
+    kota: "Kabupaten Buleleng",
+    provinsi: "Bali",
   },
   {
     id: 67,
@@ -455,6 +605,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -2.5916,
     lng: 140.669,
+    kota: "Kota Jayapura",
+    provinsi: "Papua",
   },
   {
     id: 68,
@@ -462,6 +614,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -7.314,
     lng: 110.176,
+    kota: "Kabupaten Temanggung",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 69,
@@ -469,14 +623,27 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.2146,
     lng: 106.8721,
+    kota: "Kota Jakarta Selatan",
+    provinsi: "DKI Jakarta",
   },
-  { id: 70, nama: "TUTI", business_category: "DCSA", lat: -6.705, lng: 106.7 },
+  {
+    id: 70,
+    nama: "TUTI",
+    business_category: "DCSA",
+    lat: -6.705,
+    lng: 106.7,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
+  },
+
   {
     id: 71,
     nama: "FITRIANI USMAN",
     business_category: "PFFR",
     lat: 1.06,
     lng: 127.84,
+    kota: "Kota Ternate",
+    provinsi: "Maluku Utara",
   },
   {
     id: 72,
@@ -484,6 +651,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.139,
     lng: 110.405,
+    kota: "Kota Salatiga",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 73,
@@ -491,6 +660,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 0.88,
     lng: 100.3,
+    kota: "Kabupaten Rokan Hulu",
+    provinsi: "Riau",
   },
   {
     id: 74,
@@ -498,6 +669,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -7.6317,
     lng: 111.5239,
+    kota: "Kabupaten Madiun",
+    provinsi: "Jawa Timur",
   },
   {
     id: 75,
@@ -505,6 +678,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -6.28,
     lng: 106.74,
+    kota: "Kota Depok",
+    provinsi: "Jawa Barat",
   },
   {
     id: 76,
@@ -512,6 +687,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.55,
     lng: 115.18,
+    kota: "Kabupaten Badung",
+    provinsi: "Bali",
   },
   {
     id: 77,
@@ -519,6 +696,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -2.8833,
     lng: 104.75,
+    kota: "Kota Palembang",
+    provinsi: "Sumatera Selatan",
   },
   {
     id: 78,
@@ -526,6 +705,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.67,
     lng: 109.65,
+    kota: "Kabupaten Kebumen",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 79,
@@ -533,6 +714,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -3.4344,
     lng: 104.235,
+    kota: "Kabupaten Ogan Ilir",
+    provinsi: "Sumatera Selatan",
   },
   {
     id: 80,
@@ -540,13 +723,18 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.15,
     lng: 107.02,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
+
   {
     id: 81,
     nama: "JAYA PERKASA",
     business_category: "PCCR",
     lat: -6.47,
     lng: 107.35,
+    kota: "Kabupaten Karawang",
+    provinsi: "Jawa Barat",
   },
   {
     id: 82,
@@ -554,6 +742,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.25,
     lng: 106.15,
+    kota: "Kabupaten Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 83,
@@ -561,6 +751,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -6.6,
     lng: 106.8,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 84,
@@ -568,6 +760,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -2.315,
     lng: 115.495,
+    kota: "Kabupaten Tanah Bumbu",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 85,
@@ -575,6 +769,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.15,
     lng: 106.73,
+    kota: "Kota Jakarta Barat",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 86,
@@ -582,14 +778,26 @@ const mitra = [
     business_category: "PFFR",
     lat: -6.375,
     lng: 108.3,
+    kota: "Kabupaten Indramayu",
+    provinsi: "Jawa Barat",
   },
-  { id: 87, nama: "FAUZIAH", business_category: "PFFR", lat: 1.5, lng: 102.1 },
+  {
+    id: 87,
+    nama: "FAUZIAH",
+    business_category: "PFFR",
+    lat: 1.5,
+    lng: 102.1,
+    kota: "Kabupaten Bengkalis",
+    provinsi: "Riau",
+  },
   {
     id: 88,
     nama: "MUH. ERWIN",
     business_category: "DCCC",
     lat: -5.005,
     lng: 119.573,
+    kota: "Kota Makassar",
+    provinsi: "Sulawesi Selatan",
   },
   {
     id: 89,
@@ -597,6 +805,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.893,
     lng: 107.573,
+    kota: "Kota Cimahi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 90,
@@ -604,21 +814,36 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.15,
     lng: 106.5,
+    kota: "Kabupaten Tangerang",
+    provinsi: "Banten",
   },
+
   {
     id: 91,
     nama: "YUKI ISNANDANI",
     business_category: "DCCC",
     lat: -7.395,
     lng: 109.4,
+    kota: "Kabupaten Banyumas",
+    provinsi: "Jawa Tengah",
   },
-  { id: 92, nama: "RIMA", business_category: "DCCC", lat: -7.3, lng: 106.85 },
+  {
+    id: 92,
+    nama: "RIMA",
+    business_category: "DCCC",
+    lat: -7.3,
+    lng: 106.85,
+    kota: "Kabupaten Sukabumi",
+    provinsi: "Jawa Barat",
+  },
   {
     id: 93,
     nama: "MUHTADI",
     business_category: "DCCC",
     lat: -6.22,
     lng: 106.83,
+    kota: "Kota Jakarta Selatan",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 94,
@@ -626,6 +851,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.65,
     lng: 115.18,
+    kota: "Kabupaten Badung",
+    provinsi: "Bali",
   },
   {
     id: 95,
@@ -633,6 +860,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -3.3,
     lng: 116.2,
+    kota: "Kabupaten Kotabaru",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 96,
@@ -640,13 +869,17 @@ const mitra = [
     business_category: "PCCR",
     lat: -6.15,
     lng: 106.2,
+    kota: "Kabupaten Serang",
+    provinsi: "Banten",
   },
   {
     id: 97,
-    ama: "ARIS DESIYANTI",
+    nama: "ARIS DESIYANTI",
     business_category: "DCSA",
     lat: -6.9,
     lng: 112.05,
+    kota: "Kabupaten Tuban",
+    provinsi: "Jawa Timur",
   },
   {
     id: 98,
@@ -654,6 +887,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.095,
     lng: 110.912,
+    kota: "Kabupaten Boyolali",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 99,
@@ -661,6 +896,8 @@ const mitra = [
     business_category: "PCCR",
     lat: 3.3,
     lng: 117.6,
+    kota: "Kabupaten Nunukan",
+    provinsi: "Kalimantan Utara",
   },
   {
     id: 100,
@@ -668,6 +905,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -0.5021,
     lng: 117.1536,
+    kota: "Kota Samarinda",
+    provinsi: "Kalimantan Timur",
   },
   {
     id: 101,
@@ -675,6 +914,8 @@ const mitra = [
     business_category: "DPKB",
     lat: 1.0466,
     lng: 104.0041,
+    kota: "Kota Tanjung Pinang",
+    provinsi: "Kepulauan Riau",
   },
   {
     id: 102,
@@ -682,6 +923,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.2383,
     lng: 106.6356,
+    kota: "Kota Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 103,
@@ -689,6 +932,8 @@ const mitra = [
     business_category: "DCCR",
     lat: -7.4214,
     lng: 109.2345,
+    kota: "Kabupaten Banyumas",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 104,
@@ -696,6 +941,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -2.9911,
     lng: 104.7567,
+    kota: "Kota Palembang",
+    provinsi: "Sumatera Selatan",
   },
   {
     id: 105,
@@ -703,6 +950,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.8696,
     lng: 109.1372,
+    kota: "Kabupaten Brebes",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 106,
@@ -710,6 +959,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -8.6492,
     lng: 116.3249,
+    kota: "Kabupaten Lombok Tengah",
+    provinsi: "Nusa Tenggara Barat",
   },
   {
     id: 107,
@@ -717,6 +968,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.9836,
     lng: 110.2038,
+    kota: "Kota Semarang",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 108,
@@ -724,6 +977,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.1167,
     lng: 113.4713,
+    kota: "Kabupaten Pamekasan",
+    provinsi: "Jawa Timur",
   },
   {
     id: 109,
@@ -731,6 +986,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -0.0225,
     lng: 109.3303,
+    kota: "Kota Pontianak",
+    provinsi: "Kalimantan Barat",
   },
   {
     id: 110,
@@ -738,13 +995,18 @@ const mitra = [
     business_category: "PCCR",
     lat: -7.9797,
     lng: 114.2496,
+    kota: "Kabupaten Banyuwangi",
+    provinsi: "Jawa Timur",
   },
+
   {
     id: 111,
     nama: "ENDANG WIDYARTI",
     business_category: "DCCC",
     lat: -8.1713,
     lng: 113.7021,
+    kota: "Kabupaten Jember",
+    provinsi: "Jawa Timur",
   },
   {
     id: 112,
@@ -752,6 +1014,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.6024,
     lng: 111.0368,
+    kota: "Kabupaten Pati",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 113,
@@ -759,6 +1023,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.3896,
     lng: 109.3634,
+    kota: "Kabupaten Banyumas",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 114,
@@ -766,6 +1032,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -2.9911,
     lng: 104.7567,
+    kota: "Kota Palembang",
+    provinsi: "Sumatera Selatan",
   },
   {
     id: 115,
@@ -773,6 +1041,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.0301,
     lng: 113.2514,
+    kota: "Kabupaten Sampang",
+    provinsi: "Jawa Timur",
   },
   {
     id: 116,
@@ -780,6 +1050,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.6856,
     lng: 115.2211,
+    kota: "Kota Denpasar",
+    provinsi: "Bali",
   },
   {
     id: 117,
@@ -787,6 +1059,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.6783,
     lng: 111.0437,
+    kota: "Kabupaten Pati",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 118,
@@ -794,6 +1068,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.2644,
     lng: 107.3916,
+    kota: "Kabupaten Karawang",
+    provinsi: "Jawa Barat",
   },
   {
     id: 119,
@@ -801,6 +1077,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.1185,
     lng: 106.6134,
+    kota: "Kota Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 120,
@@ -808,13 +1086,18 @@ const mitra = [
     business_category: "DCSA",
     lat: -8.5442,
     lng: 115.2065,
+    kota: "Kota Denpasar",
+    provinsi: "Bali",
   },
+
   {
     id: 121,
     nama: "ZULNEDI",
     business_category: "DCCC",
     lat: -0.9141,
     lng: 100.3601,
+    kota: "Kabupaten Agam",
+    provinsi: "Sumatera Barat",
   },
   {
     id: 122,
@@ -822,6 +1105,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.2609,
     lng: 112.6426,
+    kota: "Kabupaten Sidoarjo",
+    provinsi: "Jawa Timur",
   },
   {
     id: 123,
@@ -829,6 +1114,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -6.8711,
     lng: 109.1284,
+    kota: "Kabupaten Brebes",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 124,
@@ -836,6 +1123,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -7.2279,
     lng: 107.9087,
+    kota: "Kabupaten Garut",
+    provinsi: "Jawa Barat",
   },
   {
     id: 125,
@@ -843,6 +1132,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -3.4324,
     lng: 104.2431,
+    kota: "Kabupaten Muara Enim",
+    provinsi: "Sumatera Selatan",
   },
   {
     id: 126,
@@ -850,6 +1141,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -6.0194,
     lng: 107.3346,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 127,
@@ -857,6 +1150,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.4213,
     lng: 106.7312,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 128,
@@ -864,6 +1159,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -6.2356,
     lng: 107.0835,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 129,
@@ -871,6 +1168,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.8581,
     lng: 107.9106,
+    kota: "Kabupaten Bandung",
+    provinsi: "Jawa Barat",
   },
   {
     id: 130,
@@ -878,13 +1177,18 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3356,
     lng: 106.9037,
+    kota: "Kota Depok",
+    provinsi: "Jawa Barat",
   },
+
   {
     id: 131,
     nama: "YULI KURNIATI",
     business_category: "CCRO",
     lat: -6.1067,
     lng: 106.5314,
+    kota: "Kabupaten Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 132,
@@ -892,6 +1196,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 2.1003,
     lng: 99.8315,
+    kota: "Kabupaten Samosir",
+    provinsi: "Sumatera Utara",
   },
   {
     id: 133,
@@ -899,6 +1205,8 @@ const mitra = [
     business_category: "DCSA",
     lat: 5.1761,
     lng: 95.9386,
+    kota: "Kabupaten Aceh Utara",
+    provinsi: "Aceh",
   },
   {
     id: 134,
@@ -906,6 +1214,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -2.7485,
     lng: 114.2632,
+    kota: "Kabupaten Kapuas",
+    provinsi: "Kalimantan Tengah",
   },
   {
     id: 135,
@@ -913,6 +1223,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.3272,
     lng: 107.0121,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 136,
@@ -920,6 +1232,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -3.4804,
     lng: 115.9468,
+    kota: "Kabupaten Tanah Bumbu",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 137,
@@ -927,6 +1241,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 0.7362,
     lng: 101.6321,
+    kota: "Kabupaten Siak",
+    provinsi: "Riau",
   },
   {
     id: 138,
@@ -934,6 +1250,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -8.1586,
     lng: 112.6593,
+    kota: "Kabupaten Malang",
+    provinsi: "Jawa Timur",
   },
   {
     id: 139,
@@ -941,6 +1259,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -2.9756,
     lng: 115.1124,
+    kota: "Kabupaten Kotabaru",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 140,
@@ -948,13 +1268,18 @@ const mitra = [
     business_category: "DCCC",
     lat: 5.5532,
     lng: 95.3175,
+    kota: "Kota Banda Aceh",
+    provinsi: "Aceh",
   },
+
   {
     id: 141,
     nama: "EILFAD IKMAL HADI",
     business_category: "DCSA",
     lat: -7.0446,
     lng: 112.7441,
+    kota: "Kabupaten Gresik",
+    provinsi: "Jawa Timur",
   },
   {
     id: 142,
@@ -962,6 +1287,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.5438,
     lng: 108.0583,
+    kota: "Kabupaten Indramayu",
+    provinsi: "Jawa Barat",
   },
   {
     id: 143,
@@ -969,6 +1296,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -7.1656,
     lng: 112.6114,
+    kota: "Kabupaten Sidoarjo",
+    provinsi: "Jawa Timur",
   },
   {
     id: 144,
@@ -976,6 +1305,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.2359,
     lng: 107.0037,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 145,
@@ -983,6 +1314,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.7774,
     lng: 110.3292,
+    kota: "Kabupaten Bantul",
+    provinsi: "DI Yogyakarta",
   },
   {
     id: 146,
@@ -990,6 +1323,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.1966,
     lng: 106.7814,
+    kota: "Kota Jakarta Barat",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 147,
@@ -997,6 +1332,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -2.2096,
     lng: 113.9213,
+    kota: "Kota Palangka Raya",
+    provinsi: "Kalimantan Tengah",
   },
   {
     id: 148,
@@ -1004,6 +1341,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.5755,
     lng: 110.2568,
+    kota: "Kabupaten Sleman",
+    provinsi: "DI Yogyakarta",
   },
   {
     id: 149,
@@ -1011,6 +1350,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 1.0114,
     lng: 103.3946,
+    kota: "Kabupaten Bintan",
+    provinsi: "Kepulauan Riau",
   },
   {
     id: 150,
@@ -1018,13 +1359,18 @@ const mitra = [
     business_category: "PCCR",
     lat: -10.1718,
     lng: 123.607,
+    kota: "Kota Kupang",
+    provinsi: "Nusa Tenggara Timur",
   },
+
   {
     id: 151,
     nama: "BAPAK APENG",
     business_category: "DCCC",
     lat: -7.2307,
     lng: 112.7351,
+    kota: "Kota Surabaya",
+    provinsi: "Jawa Timur",
   },
   {
     id: 152,
@@ -1032,6 +1378,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -8.7012,
     lng: 115.1986,
+    kota: "Kabupaten Badung",
+    provinsi: "Bali",
   },
   {
     id: 153,
@@ -1039,6 +1387,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 1.6677,
     lng: 101.4479,
+    kota: "Kabupaten Bengkalis",
+    provinsi: "Riau",
   },
   {
     id: 154,
@@ -1046,6 +1396,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.9698,
     lng: 110.2594,
+    kota: "Kota Semarang",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 155,
@@ -1053,6 +1405,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.4776,
     lng: 107.0374,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 156,
@@ -1060,6 +1414,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.0286,
     lng: 107.8194,
+    kota: "Kabupaten Bandung",
+    provinsi: "Jawa Barat",
   },
   {
     id: 157,
@@ -1067,6 +1423,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3297,
     lng: 108.0895,
+    kota: "Kabupaten Indramayu",
+    provinsi: "Jawa Barat",
   },
   {
     id: 158,
@@ -1074,6 +1432,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.2767,
     lng: 106.9745,
+    kota: "Kota Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 159,
@@ -1081,6 +1441,8 @@ const mitra = [
     business_category: "CCRO",
     lat: 3.7064,
     lng: 98.6821,
+    kota: "Kota Medan",
+    provinsi: "Sumatera Utara",
   },
   {
     id: 160,
@@ -1088,13 +1450,18 @@ const mitra = [
     business_category: "CCRO",
     lat: 0.1324,
     lng: 117.4697,
+    kota: "Kota Bontang",
+    provinsi: "Kalimantan Timur",
   },
+
   {
     id: 161,
     nama: "DEWI NOVITA DZULMAR",
     business_category: "DCCC",
     lat: -2.1578,
     lng: 115.3826,
+    kota: "Kabupaten Kotabaru",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 162,
@@ -1102,6 +1469,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -2.3076,
     lng: 102.7135,
+    kota: "Kabupaten Bungo",
+    provinsi: "Jambi",
   },
   {
     id: 163,
@@ -1109,6 +1478,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.5649,
     lng: 107.7612,
+    kota: "Kabupaten Subang",
+    provinsi: "Jawa Barat",
   },
   {
     id: 164,
@@ -1116,6 +1487,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.8891,
     lng: 112.0456,
+    kota: "Kabupaten Lamongan",
+    provinsi: "Jawa Timur",
   },
   {
     id: 165,
@@ -1123,6 +1496,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -3.4627,
     lng: 114.7744,
+    kota: "Kabupaten Banjar",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 166,
@@ -1130,6 +1505,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -8.5412,
     lng: 115.2169,
+    kota: "Kota Denpasar",
+    provinsi: "Bali",
   },
   {
     id: 167,
@@ -1137,6 +1514,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 2.1653,
     lng: 117.4886,
+    kota: "Kabupaten Berau",
+    provinsi: "Kalimantan Timur",
   },
   {
     id: 168,
@@ -1144,6 +1523,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.3612,
     lng: 109.9035,
+    kota: "Kabupaten Banjarnegara",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 169,
@@ -1151,6 +1532,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -6.9236,
     lng: 107.7163,
+    kota: "Kabupaten Bandung",
+    provinsi: "Jawa Barat",
   },
   {
     id: 170,
@@ -1158,13 +1541,18 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.8414,
     lng: 108.7069,
+    kota: "Kabupaten Cirebon",
+    provinsi: "Jawa Barat",
   },
+
   {
     id: 171,
     nama: "ETIK INDRAWATI",
     business_category: "PCCR",
     lat: -7.4441,
     lng: 112.7172,
+    kota: "Kabupaten Sidoarjo",
+    provinsi: "Jawa Timur",
   },
   {
     id: 172,
@@ -1172,6 +1560,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.4517,
     lng: 107.0634,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 173,
@@ -1179,6 +1569,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.1812,
     lng: 106.6896,
+    kota: "Kota Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 174,
@@ -1186,6 +1578,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3698,
     lng: 106.2534,
+    kota: "Kabupaten Lebak",
+    provinsi: "Banten",
   },
   {
     id: 175,
@@ -1193,6 +1587,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.2438,
     lng: 107.0889,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 176,
@@ -1200,6 +1596,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -2.8754,
     lng: 104.2439,
+    kota: "Kabupaten Ogan Ilir",
+    provinsi: "Sumatera Selatan",
   },
   {
     id: 177,
@@ -1207,6 +1605,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3926,
     lng: 106.8347,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 178,
@@ -1214,6 +1614,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.5518,
     lng: 107.6984,
+    kota: "Kabupaten Subang",
+    provinsi: "Jawa Barat",
   },
   {
     id: 179,
@@ -1221,6 +1623,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.4209,
     lng: 110.9381,
+    kota: "Kabupaten Klaten",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 180,
@@ -1228,13 +1632,18 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.9146,
     lng: 107.6831,
+    kota: "Kota Bandung",
+    provinsi: "Jawa Barat",
   },
+
   {
     id: 181,
     nama: "KIKY PUTERI",
     business_category: "DCCC",
     lat: -3.2903,
     lng: 114.5841,
+    kota: "Kota Banjarmasin",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 182,
@@ -1242,6 +1651,8 @@ const mitra = [
     business_category: "DCSA",
     lat: 1.0153,
     lng: 102.7128,
+    kota: "Kabupaten Pelalawan",
+    provinsi: "Riau",
   },
   {
     id: 183,
@@ -1249,6 +1660,8 @@ const mitra = [
     business_category: "PFFR",
     lat: 4.6863,
     lng: 96.8554,
+    kota: "Kabupaten Aceh Tengah",
+    provinsi: "Aceh",
   },
   {
     id: 184,
@@ -1256,6 +1669,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.1514,
     lng: 106.9569,
+    kota: "Kota Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 185,
@@ -1263,6 +1678,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.1539,
     lng: 106.7267,
+    kota: "Kota Jakarta Barat",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 186,
@@ -1270,6 +1687,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.6124,
     lng: 115.1769,
+    kota: "Kabupaten Badung",
+    provinsi: "Bali",
   },
   {
     id: 187,
@@ -1277,6 +1696,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 4.1796,
     lng: 117.6823,
+    kota: "Kabupaten Nunukan",
+    provinsi: "Kalimantan Utara",
   },
   {
     id: 188,
@@ -1284,6 +1705,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -0.0338,
     lng: 109.3587,
+    kota: "Kota Pontianak",
+    provinsi: "Kalimantan Barat",
   },
   {
     id: 189,
@@ -1291,6 +1714,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.8794,
     lng: 109.1326,
+    kota: "Kabupaten Brebes",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 190,
@@ -1298,13 +1723,18 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.0019,
     lng: 106.8226,
+    kota: "Kabupaten Sukabumi",
+    provinsi: "Jawa Barat",
   },
+
   {
     id: 191,
     nama: "RADITA PRABASIWI",
     business_category: "DCCC",
     lat: -7.3187,
     lng: 110.5082,
+    kota: "Kabupaten Semarang",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 192,
@@ -1312,6 +1742,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.6696,
     lng: 115.1968,
+    kota: "Kota Denpasar",
+    provinsi: "Bali",
   },
   {
     id: 193,
@@ -1319,6 +1751,8 @@ const mitra = [
     business_category: "DPKB",
     lat: -6.3367,
     lng: 106.8994,
+    kota: "Kota Depok",
+    provinsi: "Jawa Barat",
   },
   {
     id: 194,
@@ -1326,6 +1760,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -3.3186,
     lng: 114.5904,
+    kota: "Kota Banjarmasin",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 195,
@@ -1333,6 +1769,8 @@ const mitra = [
     business_category: "DPKB",
     lat: -7.4926,
     lng: 110.6263,
+    kota: "Kabupaten Sleman",
+    provinsi: "DI Yogyakarta",
   },
   {
     id: 196,
@@ -1340,6 +1778,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -5.4826,
     lng: 105.3751,
+    kota: "Kabupaten Lampung Selatan",
+    provinsi: "Lampung",
   },
   {
     id: 197,
@@ -1347,6 +1787,8 @@ const mitra = [
     business_category: "PFFR",
     lat: 4.6342,
     lng: 96.8439,
+    kota: "Kabupaten Aceh Tengah",
+    provinsi: "Aceh",
   },
   {
     id: 198,
@@ -1354,13 +1796,17 @@ const mitra = [
     business_category: "DPKB",
     lat: 0.7362,
     lng: 101.6321,
+    kota: "Kabupaten Siak",
+    provinsi: "Riau",
   },
   {
     id: 199,
-    ama: "CINDY TIANA",
+    nama: "CINDY TIANA",
     business_category: "DCCC",
     lat: -1.1765,
     lng: 116.8839,
+    kota: "Kabupaten Penajam Paser Utara",
+    provinsi: "Kalimantan Timur",
   },
   {
     id: 200,
@@ -1368,6 +1814,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.4087,
     lng: 106.7654,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 201,
@@ -1375,6 +1823,8 @@ const mitra = [
     business_category: "DPKB",
     lat: -4.4336,
     lng: 102.8971,
+    kota: "Kabupaten Seluma",
+    provinsi: "Bengkulu",
   },
   {
     id: 202,
@@ -1382,6 +1832,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.5586,
     lng: 107.7601,
+    kota: "Kabupaten Subang",
+    provinsi: "Jawa Barat",
   },
   {
     id: 203,
@@ -1389,6 +1841,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.684,
     lng: 108.6527,
+    kota: "Kabupaten Ciamis",
+    provinsi: "Jawa Barat",
   },
   {
     id: 204,
@@ -1396,6 +1850,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -1.4583,
     lng: 100.5775,
+    kota: "Kabupaten Pesisir Selatan",
+    provinsi: "Sumatera Barat",
   },
   {
     id: 205,
@@ -1403,6 +1859,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.4646,
     lng: 108.9483,
+    kota: "Kabupaten Tasikmalaya",
+    provinsi: "Jawa Barat",
   },
   {
     id: 206,
@@ -1410,6 +1868,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -3.9973,
     lng: 122.5129,
+    kota: "Kota Kendari",
+    provinsi: "Sulawesi Tenggara",
   },
   {
     id: 207,
@@ -1417,6 +1877,8 @@ const mitra = [
     business_category: "PCCR",
     lat: 0.843,
     lng: 100.3893,
+    kota: "Kabupaten Agam",
+    provinsi: "Sumatera Barat",
   },
   {
     id: 208,
@@ -1424,6 +1886,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.565,
     lng: 110.21,
+    kota: "Kabupaten Sleman",
+    provinsi: "DI Yogyakarta",
   },
   {
     id: 209,
@@ -1431,6 +1895,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -6.1478,
     lng: 106.7073,
+    kota: "Kota Jakarta Barat",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 210,
@@ -1438,13 +1904,18 @@ const mitra = [
     business_category: "DCCC",
     lat: -3.2833,
     lng: 114.5908,
+    kota: "Kota Banjarmasin",
+    provinsi: "Kalimantan Selatan",
   },
+
   {
     id: 211,
     nama: "MIDAR SANTI",
     business_category: "DCCC",
     lat: 0.5071,
     lng: 101.4478,
+    kota: "Kota Pekanbaru",
+    provinsi: "Riau",
   },
   {
     id: 212,
@@ -1452,6 +1923,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3956,
     lng: 106.7363,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 213,
@@ -1459,6 +1932,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.1422,
     lng: 106.2776,
+    kota: "Kabupaten Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 214,
@@ -1466,6 +1941,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.1575,
     lng: 112.1835,
+    kota: "Kabupaten Lamongan",
+    provinsi: "Jawa Timur",
   },
   {
     id: 215,
@@ -1473,6 +1950,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -6.8344,
     lng: 107.4656,
+    kota: "Kabupaten Bandung Barat",
+    provinsi: "Jawa Barat",
   },
   {
     id: 216,
@@ -1480,6 +1959,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 0.3516,
     lng: 101.1787,
+    kota: "Kabupaten Kampar",
+    provinsi: "Riau",
   },
   {
     id: 217,
@@ -1487,6 +1968,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -7.0526,
     lng: 110.4237,
+    kota: "Kota Semarang",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 218,
@@ -1494,6 +1977,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -0.4526,
     lng: 101.0634,
+    kota: "Kabupaten Kampar",
+    provinsi: "Riau",
   },
   {
     id: 219,
@@ -1501,6 +1986,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -3.8457,
     lng: 102.3396,
+    kota: "Kota Bengkulu",
+    provinsi: "Bengkulu",
   },
   {
     id: 220,
@@ -1508,6 +1995,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -6.3054,
     lng: 107.2965,
+    kota: "Kabupaten Karawang",
+    provinsi: "Jawa Barat",
   },
 
   {
@@ -1516,6 +2005,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.5856,
     lng: 110.2625,
+    kota: "Kabupaten Sleman",
+    provinsi: "DI Yogyakarta",
   },
   {
     id: 222,
@@ -1523,6 +2014,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.4026,
     lng: 106.9104,
+    kota: "Kota Depok",
+    provinsi: "Jawa Barat",
   },
   {
     id: 223,
@@ -1530,6 +2023,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -7.6281,
     lng: 111.5214,
+    kota: "Kabupaten Madiun",
+    provinsi: "Jawa Timur",
   },
   {
     id: 224,
@@ -1537,6 +2032,8 @@ const mitra = [
     business_category: "DCSA",
     lat: 0.6506,
     lng: 122.6412,
+    kota: "Kabupaten Bone Bolango",
+    provinsi: "Gorontalo",
   },
   {
     id: 225,
@@ -1544,6 +2041,8 @@ const mitra = [
     business_category: "DPKB",
     lat: -6.2167,
     lng: 106.5078,
+    kota: "Kota Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 226,
@@ -1551,6 +2050,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.7205,
     lng: 106.7934,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 227,
@@ -1558,6 +2059,8 @@ const mitra = [
     business_category: "PFFR",
     lat: 4.1443,
     lng: 96.1266,
+    kota: "Kabupaten Aceh Barat",
+    provinsi: "Aceh",
   },
   {
     id: 228,
@@ -1565,6 +2068,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -6.2446,
     lng: 107.1342,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 229,
@@ -1572,6 +2077,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3036,
     lng: 106.7915,
+    kota: "Kota Depok",
+    provinsi: "Jawa Barat",
   },
   {
     id: 230,
@@ -1579,6 +2086,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -6.256,
     lng: 106.6766,
+    kota: "Kota Tangerang Selatan",
+    provinsi: "Banten",
   },
 
   {
@@ -1587,6 +2096,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -2.9909,
     lng: 104.7566,
+    kota: "Kota Palembang",
+    provinsi: "Sumatera Selatan",
   },
   {
     id: 232,
@@ -1594,6 +2105,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 1.5493,
     lng: 124.913,
+    kota: "Kota Manado",
+    provinsi: "Sulawesi Utara",
   },
   {
     id: 233,
@@ -1601,6 +2114,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.1536,
     lng: 112.6575,
+    kota: "Kabupaten Sidoarjo",
+    provinsi: "Jawa Timur",
   },
   {
     id: 234,
@@ -1608,6 +2123,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -2.9727,
     lng: 104.7458,
+    kota: "Kota Palembang",
+    provinsi: "Sumatera Selatan",
   },
   {
     id: 235,
@@ -1615,6 +2132,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -3.7928,
     lng: 102.2608,
+    kota: "Kabupaten Bengkulu Tengah",
+    provinsi: "Bengkulu",
   },
   {
     id: 236,
@@ -1622,6 +2141,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3008,
     lng: 107.1416,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 237,
@@ -1629,6 +2150,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.3722,
     lng: 108.5413,
+    kota: "Kabupaten Tasikmalaya",
+    provinsi: "Jawa Barat",
   },
   {
     id: 238,
@@ -1636,6 +2159,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.2527,
     lng: 107.0747,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 239,
@@ -1643,6 +2168,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.9383,
     lng: 107.5786,
+    kota: "Kota Bandung",
+    provinsi: "Jawa Barat",
   },
   {
     id: 240,
@@ -1650,6 +2177,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -0.4314,
     lng: 103.2556,
+    kota: "Kabupaten Indragiri Hulu",
+    provinsi: "Riau",
   },
 
   {
@@ -1658,6 +2187,8 @@ const mitra = [
     business_category: "DCCC",
     lat: 3.3274,
     lng: 117.5785,
+    kota: "Kabupaten Nunukan",
+    provinsi: "Kalimantan Utara",
   },
   {
     id: 242,
@@ -1665,6 +2196,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.8321,
     lng: 107.8937,
+    kota: "Kabupaten Sumedang",
+    provinsi: "Jawa Barat",
   },
   {
     id: 243,
@@ -1672,6 +2205,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -6.3256,
     lng: 106.9018,
+    kota: "Kota Depok",
+    provinsi: "Jawa Barat",
   },
   {
     id: 244,
@@ -1679,6 +2214,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.5484,
     lng: 110.8361,
+    kota: "Kabupaten Klaten",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 245,
@@ -1686,6 +2223,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -3.6935,
     lng: 114.7056,
+    kota: "Kabupaten Banjar",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 246,
@@ -1693,6 +2232,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3484,
     lng: 107.0304,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 247,
@@ -1700,6 +2241,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -3.4447,
     lng: 114.8293,
+    kota: "Kabupaten Barito Kuala",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 248,
@@ -1707,6 +2250,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -5.3616,
     lng: 105.0294,
+    kota: "Kabupaten Lampung Selatan",
+    provinsi: "Lampung",
   },
   {
     id: 249,
@@ -1714,6 +2259,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.7972,
     lng: 110.3671,
+    kota: "Kota Yogyakarta",
+    provinsi: "DI Yogyakarta",
   },
   {
     id: 250,
@@ -1721,6 +2268,8 @@ const mitra = [
     business_category: "PFFR",
     lat: 0.4914,
     lng: 101.4472,
+    kota: "Kota Pekanbaru",
+    provinsi: "Riau",
   },
 
   {
@@ -1729,6 +2278,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.1504,
     lng: 113.5201,
+    kota: "Kabupaten Pamekasan",
+    provinsi: "Jawa Timur",
   },
   {
     id: 252,
@@ -1736,6 +2287,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.2942,
     lng: 107.1719,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 253,
@@ -1743,6 +2296,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3259,
     lng: 106.6454,
+    kota: "Kota Tangerang Selatan",
+    provinsi: "Banten",
   },
   {
     id: 254,
@@ -1750,6 +2305,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.1166,
     lng: 106.881,
+    kota: "Kota Jakarta Utara",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 255,
@@ -1757,6 +2314,8 @@ const mitra = [
     business_category: "DPKB",
     lat: 3.5553,
     lng: 98.7135,
+    kota: "Kota Medan",
+    provinsi: "Sumatera Utara",
   },
   {
     id: 256,
@@ -1764,6 +2323,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.8176,
     lng: 107.3114,
+    kota: "Kabupaten Bandung Barat",
+    provinsi: "Jawa Barat",
   },
   {
     id: 257,
@@ -1771,6 +2332,8 @@ const mitra = [
     business_category: "PFFR",
     lat: 0.5236,
     lng: 101.1082,
+    kota: "Kabupaten Kampar",
+    provinsi: "Riau",
   },
   {
     id: 258,
@@ -1778,6 +2341,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.9377,
     lng: 107.5733,
+    kota: "Kota Bandung",
+    provinsi: "Jawa Barat",
   },
   {
     id: 259,
@@ -1785,6 +2350,8 @@ const mitra = [
     business_category: "DPKB",
     lat: -6.6766,
     lng: 106.6627,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 260,
@@ -1792,6 +2359,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -8.0984,
     lng: 112.1682,
+    kota: "Kabupaten Malang",
+    provinsi: "Jawa Timur",
   },
 
   {
@@ -1800,6 +2369,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3157,
     lng: 107.1353,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 262,
@@ -1807,6 +2378,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.2438,
     lng: 106.8443,
+    kota: "Kota Jakarta Timur",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 263,
@@ -1814,6 +2387,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.1099,
     lng: 106.9325,
+    kota: "Kota Jakarta Utara",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 264,
@@ -1821,6 +2396,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.3054,
     lng: 108.3821,
+    kota: "Kabupaten Tasikmalaya",
+    provinsi: "Jawa Barat",
   },
   {
     id: 265,
@@ -1828,6 +2405,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -6.1198,
     lng: 106.5232,
+    kota: "Kota Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 266,
@@ -1835,6 +2414,8 @@ const mitra = [
     business_category: "PFFR",
     lat: 0.5079,
     lng: 101.4635,
+    kota: "Kota Pekanbaru",
+    provinsi: "Riau",
   },
   {
     id: 267,
@@ -1842,6 +2423,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -1.2155,
     lng: 121.4834,
+    kota: "Kabupaten Morowali",
+    provinsi: "Sulawesi Tengah",
   },
   {
     id: 268,
@@ -1849,6 +2432,8 @@ const mitra = [
     business_category: "DPKB",
     lat: -6.8048,
     lng: 110.8417,
+    kota: "Kabupaten Jepara",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 269,
@@ -1856,6 +2441,8 @@ const mitra = [
     business_category: "PCCR",
     lat: -3.384,
     lng: 126.7266,
+    kota: "Kabupaten Maluku Tengah",
+    provinsi: "Maluku",
   },
   {
     id: 270,
@@ -1863,6 +2450,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.2353,
     lng: 106.979,
+    kota: "Kota Bekasi",
+    provinsi: "Jawa Barat",
   },
 
   {
@@ -1871,6 +2460,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.4026,
     lng: 106.9104,
+    kota: "Kota Depok",
+    provinsi: "Jawa Barat",
   },
   {
     id: 272,
@@ -1878,6 +2469,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.3186,
     lng: 106.8817,
+    kota: "Kota Depok",
+    provinsi: "Jawa Barat",
   },
   {
     id: 273,
@@ -1885,6 +2478,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.4011,
     lng: 106.7524,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 274,
@@ -1892,6 +2487,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -1.0947,
     lng: 113.8746,
+    kota: "Kabupaten Katingan",
+    provinsi: "Kalimantan Tengah",
   },
   {
     id: 275,
@@ -1899,6 +2496,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -3.5634,
     lng: 119.7731,
+    kota: "Kabupaten Polewali Mandar",
+    provinsi: "Sulawesi Barat",
   },
   {
     id: 276,
@@ -1906,6 +2505,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.7702,
     lng: 110.2935,
+    kota: "Kabupaten Bantul",
+    provinsi: "DI Yogyakarta",
   },
   {
     id: 277,
@@ -1913,6 +2514,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -7.2764,
     lng: 112.7939,
+    kota: "Kota Surabaya",
+    provinsi: "Jawa Timur",
   },
   {
     id: 278,
@@ -1920,6 +2523,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.7395,
     lng: 113.1852,
+    kota: "Kabupaten Probolinggo",
+    provinsi: "Jawa Timur",
   },
   {
     id: 279,
@@ -1927,6 +2532,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.2119,
     lng: 108.3771,
+    kota: "Kabupaten Tasikmalaya",
+    provinsi: "Jawa Barat",
   },
   {
     id: 280,
@@ -1934,6 +2541,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.7476,
     lng: 108.5506,
+    kota: "Kabupaten Majalengka",
+    provinsi: "Jawa Barat",
   },
 
   {
@@ -1942,6 +2551,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -8.0776,
     lng: 111.7154,
+    kota: "Kabupaten Trenggalek",
+    provinsi: "Jawa Timur",
   },
   {
     id: 282,
@@ -1949,6 +2560,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -8.4963,
     lng: 140.3947,
+    kota: "Kabupaten Merauke",
+    provinsi: "Papua Selatan",
   },
   {
     id: 283,
@@ -1956,6 +2569,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -6.8897,
     lng: 109.6745,
+    kota: "Kabupaten Pemalang",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 284,
@@ -1963,6 +2578,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -8.636,
     lng: 115.2303,
+    kota: "Kota Denpasar",
+    provinsi: "Bali",
   },
   {
     id: 285,
@@ -1970,6 +2587,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -2.6504,
     lng: 101.1281,
+    kota: "Kabupaten Kerinci",
+    provinsi: "Jambi",
   },
   {
     id: 286,
@@ -1977,6 +2596,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.1074,
     lng: 107.5146,
+    kota: "Kabupaten Karawang",
+    provinsi: "Jawa Barat",
   },
   {
     id: 287,
@@ -1984,6 +2605,8 @@ const mitra = [
     business_category: "DPKB",
     lat: -2.5847,
     lng: 115.3831,
+    kota: "Kabupaten Kotabaru",
+    provinsi: "Kalimantan Selatan",
   },
   {
     id: 288,
@@ -1991,6 +2614,8 @@ const mitra = [
     business_category: "DPKB",
     lat: -7.2251,
     lng: 110.3514,
+    kota: "Kabupaten Semarang",
+    provinsi: "Jawa Tengah",
   },
   {
     id: 289,
@@ -1998,6 +2623,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -4.0223,
     lng: 120.1995,
+    kota: "Kabupaten Bone",
+    provinsi: "Sulawesi Selatan",
   },
   {
     id: 290,
@@ -2005,6 +2632,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -3.4489,
     lng: 119.3452,
+    kota: "Kabupaten Majene",
+    provinsi: "Sulawesi Barat",
   },
 
   {
@@ -2013,6 +2642,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.8754,
     lng: 110.3311,
+    kota: "Kabupaten Bantul",
+    provinsi: "DI Yogyakarta",
   },
   {
     id: 292,
@@ -2020,6 +2651,8 @@ const mitra = [
     business_category: "PFFR",
     lat: -6.1786,
     lng: 106.6367,
+    kota: "Kota Tangerang",
+    provinsi: "Banten",
   },
   {
     id: 293,
@@ -2027,6 +2660,8 @@ const mitra = [
     business_category: "CCRO",
     lat: -7.8861,
     lng: 112.6646,
+    kota: "Kota Malang",
+    provinsi: "Jawa Timur",
   },
   {
     id: 294,
@@ -2034,6 +2669,8 @@ const mitra = [
     business_category: "DCSA",
     lat: -7.0193,
     lng: 107.7457,
+    kota: "Kabupaten Bandung",
+    provinsi: "Jawa Barat",
   },
   {
     id: 295,
@@ -2041,6 +2678,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.1921,
     lng: 106.8926,
+    kota: "Kota Jakarta Timur",
+    provinsi: "DKI Jakarta",
   },
   {
     id: 296,
@@ -2048,6 +2687,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -7.0812,
     lng: 113.4749,
+    kota: "Kabupaten Pamekasan",
+    provinsi: "Jawa Timur",
   },
   {
     id: 297,
@@ -2055,6 +2696,8 @@ const mitra = [
     business_category: "DPKB",
     lat: -0.4786,
     lng: 103.1795,
+    kota: "Kabupaten Indragiri Hulu",
+    provinsi: "Riau",
   },
   {
     id: 298,
@@ -2062,6 +2705,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.1413,
     lng: 107.0196,
+    kota: "Kabupaten Bekasi",
+    provinsi: "Jawa Barat",
   },
   {
     id: 299,
@@ -2069,6 +2714,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.5711,
     lng: 106.7931,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
   {
     id: 300,
@@ -2076,6 +2723,8 @@ const mitra = [
     business_category: "DCCC",
     lat: -6.5728,
     lng: 106.7348,
+    kota: "Kabupaten Bogor",
+    provinsi: "Jawa Barat",
   },
 ];
 
