@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import HeroImage from "/logo.png";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -50,7 +51,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="navbar-box flex items-center justify-between">
           <div className="logo">
-            <h1 className="sm:text-2xl text-xl font-bold">MKI</h1>
+            <img src={HeroImage} alt="Logo" className="w-20 h-auto" />
           </div>
 
           {/* MENU */}
