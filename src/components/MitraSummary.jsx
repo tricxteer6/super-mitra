@@ -33,8 +33,11 @@ export default function MitraSummary({
             `}
           >
             {/* LOGO PLACEHOLDER */}
-            <div className="w-10 h-10 bg-gray-200 rounded-full" />
-
+            <img
+              src={`../brands/${cat}.png`}
+              alt={cat}
+              className="w-10 h-10 object-contain"
+            />
             <div className="text-sm font-semibold">{cat}</div>
             <div className="text-xs text-gray-500">({count})</div>
           </button>
