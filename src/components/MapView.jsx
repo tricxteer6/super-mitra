@@ -63,7 +63,7 @@ export default function MapView() {
         <MapContainer
           center={[-2.5489, 118.0149]}
           zoom={4}
-          className="w-full h-[350px] md:h-[500px]"
+          className="w-full h-87.5 md:h-125"
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 

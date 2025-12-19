@@ -28,7 +28,7 @@ function HomePage() {
 
           <div>
             <img
-              className="md:w-full max-w-[400px] mx-auto"
+              className="md:w-full max-w-100 mx-auto"
               src={HeroImage}
               alt="Hero"
             />
