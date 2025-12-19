@@ -16,8 +16,8 @@ function HomePage() {
             </h1>
 
             <p className="text-base leading-8 mb-7">
-              Temukan ribuan mitra kuliner dari berbagai kategori di seluruh
-              Indonesia melalui peta interaktif kami.
+              temukan ribuan mitra master kuliner indonesia dari berbagai daerah
+              di seluruh indonesia melalui peta interaktif kami.
             </p>
 
             <button className="bg-red-600 hover:bg-red-700 transition-all py-2 px-5 text-white shadow rounded-full">
