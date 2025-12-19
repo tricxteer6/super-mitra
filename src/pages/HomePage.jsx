@@ -3,46 +3,53 @@ import MapView from "../components/MapView";
 
 function HomePage() {
   return (
-    <div className="homepage pb-10">
+    <div className="homepage pb-16">
       <div className="container mx-auto px-4">
-        <div className="hero grid md:grid-cols-2 grid-cols-1 gap-20 items-center pt-30">
-          <div className="box">
-            <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
+
+        {/* HERO */}
+        <div className="hero grid md:grid-cols-2 gap-20 items-center pt-28">
+          <div>
+            <h1 className="lg:text-5xl text-3xl font-medium mb-7">
               Selamat Datang di{" "}
               <span className="font-bold text-red-500 underline">
                 Master Kuliner Indonesia
               </span>
             </h1>
-            <p className="text-base/8 mb-7">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
-              dolorem laudantium delectus at eum? Distinctio blanditiis,
-              assumenda, doloribus dignissimos sed amet a porro omnis error
-              animi minus, delectus labore sunt?
+
+            <p className="text-base leading-8 mb-7">
+              Temukan ribuan mitra kuliner dari berbagai kategori di seluruh
+              Indonesia melalui peta interaktif kami.
             </p>
-            <a
-              href="#"
-              className="bg-red-600 hover:bg-red-700 transition-all py-2 px-4 text-white shadow rounded-full"
-            >
-              Tentang Kami<i className="ri-eye-line ms-1"></i>
-            </a>
+
+            <button className="bg-red-600 hover:bg-red-700 transition-all py-2 px-5 text-white shadow rounded-full">
+              Tentang Kami
+            </button>
           </div>
-          <div className="box">
+
+          <div>
             <img
-              className="md:w-full w-400px mx-auto md:m-0"
+              className="md:w-full max-w-[400px] mx-auto"
               src={HeroImage}
-              alt="Hero Image"
+              alt="Hero"
             />
           </div>
         </div>
-        <div className="about sm:flex md:flex-row sm:justify-between items-center sm:mt-15 sm:mx-20 sm:gap-50">
-          <div className="box">
-            <h1 className="lg:text-2xl text-center font-bold text-3xl mb-7">Mitra yang sudah bergabung</h1>
-            <img src={HeroImage} alt="Daftar Mitra" />
+
+        {/* MAP SECTION */}
+        <section className="mt-24">
+          <div className="text-center max-w-2xl mx-auto mb-10">
+            <h2 className="text-4xl font-semibold mb-4">
+              Jelajahi Mitra Kuliner Kami
+            </h2>
+            <p className="text-base leading-8 text-gray-600">
+              Cari mitra berdasarkan kota, provinsi, atau kategori brand.
+              Klik marker untuk melihat detail mitra.
+            </p>
           </div>
-          <div className="box">
-              <MapView />
-          </div>
-        </div>
+
+          <MapView />
+        </section>
+
       </div>
     </div>
   );
