@@ -43,7 +43,7 @@ function Login() {
           <img
             src={HeroImage}
             alt="Logo"
-            className="w-60 mb-4 drop-shadow-[0_0_1px_white] drop-shadow-[0_0_2px_white]"
+            className="w-60 mb-4 drop-shadow-[0_0_1px_white]"
           />
           <h1 className="text-4xl font-bold">Master Kuliner Indonesia</h1>
           <p className="mt-2 text-lg opacity-80">Your partner solution.</p>

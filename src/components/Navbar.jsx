@@ -56,26 +56,48 @@ const Navbar = () => {
 
           {/* MENU */}
           <ul
-            className={`flex lg:gap-12 md:p-0 md:m-0 md:static md:flex-row md:shadow-none md:transition-none md:bg-transparent md:w-auto md:h-full md:translate-y-0 md:text-black gap-8 fixed ${menuActive} top-1/2 -translate-y-1/2 flex-col px-8 py-6 rounded shadow-lg shadow-slate-300 bg-red-600 font-bold text-white transform transition-transform duration-1000 ease-in-out`}
+            className={`flex lg:gap-12 md:mt-5 md:p-0 md:m-0 md:static md:flex-row 
+  md:shadow-none md:bg-transparent md:opacity-100 md:scale-100
+  md:translate-x-0 md:pointer-events-auto md:text-black
+  gap-8 fixed top-1/2 -translate-y-1/2 flex-col px-8 py-6 
+  shadow-lg shadow-slate-300 bg-red-600 font-bold text-white
+  transition-all duration-500 ease-in-out transform
+  ${menuActive}`}
           >
             <li>
-              <a href="#" className="font-medium opacity-75">
+              <a
+                href="/"
+                onClick={() => setShow(false)}
+                className="font-medium opacity-75"
+              >
                 Beranda
               </a>
             </li>
             <li>
-              <a href="#" className="font-medium opacity-75">
+              <a
+                href="#"
+                onClick={() => setShow(false)}
+                className="font-medium opacity-75"
+              >
                 Produk
               </a>
             </li>
             <li>
-              <a href="#" className="font-medium opacity-75">
+              <a
+                href="#"
+                onClick={() => setShow(false)}
+                className="font-medium opacity-75"
+              >
                 Tentang Kami
               </a>
             </li>
             <li>
-              <a href="#" className="font-medium opacity-75">
-                Course
+              <a
+                href="/course"
+                onClick={() => setShow(false)}
+                className="font-medium opacity-75"
+              >
+                Akses Mitra
               </a>
             </li>
           </ul>
@@ -95,7 +117,15 @@ const Navbar = () => {
               <div className="relative">
                 <button
                   onClick={() => setOpenUser(!openUser)}
-                  className="bg-gray-200 px-4 py-2 rounded-full font-semibold"
+                  className={`px-4 py-2 rounded-full font-semibold transition hover:cursor-pointer
+                    ${
+                      user.role === "vip"
+                        ? "bg-linear-to-r from-yellow-400 to-yellow-500 text-black shadow"
+                        : user.role === "admin"
+                        ? "bg-purple-600 text-white shadow"
+                        : "bg-gray-200 text-gray-800"
+                    }
+                  `}
                 >
                   {user.name}
                 </button>
@@ -104,7 +134,7 @@ const Navbar = () => {
                   <div className="absolute right-0 mt-2 bg-white shadow rounded-lg overflow-hidden z-50">
                     <button
                       onClick={handleLogout}
-                      className="block w-full px-4 py-2 text-sm hover:bg-gray-100 text-left"
+                      className="block w-full px-4 py-2 text-sm hover:bg-gray-100 text-left hover:cursor-pointer"
                     >
                       Logout
                     </button>
@@ -114,7 +144,9 @@ const Navbar = () => {
             )}
 
             <i
-              className="ri-menu-3-line text-3xl md:hidden"
+              className={`text-3xl md:hidden transition-transform duration-300
+    ${show ? "ri-close-line rotate-180" : "ri-menu-3-line"}
+  `}
               onClick={handleClick}
             ></i>
           </div>
