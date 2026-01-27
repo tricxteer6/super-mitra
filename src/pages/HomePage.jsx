@@ -2,6 +2,7 @@ import HeroImage from "/logo.png";
 import MapView from "../components/MapView";
 
 function HomePage() {
+  
   return (
     <div className="homepage pb-16">
       <div className="container mx-auto px-4">

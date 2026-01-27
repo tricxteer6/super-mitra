@@ -1,30 +1,31 @@
 import { useState } from "react";
+import HeroImage from "../../public/logo.png";
+import { login } from "../services/auth";
 import { useNavigate } from "react-router-dom";
-import DataUser from "../database/DataUser";
-import HeroImage from "/logo.png";
 
-function Login() {
-  const navigate = useNavigate();
+export default function Login() {
+  const navigate = useNavigate(); // ✅ DI DALAM COMPONENT
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const handleLogin = (e) => {
-    e.preventDefault();
+  const handleLogin = async (e) => {
+    e.preventDefault(); // ✅ WAJIB
 
-    const user = DataUser.find(
-      (u) => u.email === email && u.password === password
-    );
+    setError("");
 
-    if (!user) {
-      setError("Email atau password salah");
-      return;
+    try {
+      const user = await login(email, password);
+
+      if (user.role === "admin") {
+        navigate("/admin/dashboard");
+      } else {
+        navigate("/");
+      }
+    } catch (err) {
+      setError(err.response?.data?.message || "Login gagal");
     }
-
-    // simpan user login
-    localStorage.setItem("user", JSON.stringify(user));
-    navigate("/");
   };
 
   return (
@@ -68,6 +69,7 @@ function Login() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
               />
             </div>
 
@@ -79,6 +81,7 @@ function Login() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
               />
             </div>
 
@@ -89,6 +92,7 @@ function Login() {
               Login
             </button>
           </form>
+
           <div className="mt-4 text-center">
             <button
               type="button"
@@ -103,5 +107,3 @@ function Login() {
     </div>
   );
 }
-
-export default Login;
