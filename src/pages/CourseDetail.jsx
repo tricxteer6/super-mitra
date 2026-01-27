@@ -137,7 +137,7 @@ export default function CourseDetail() {
                       <div className="relative w-24 h-16 rounded-lg overflow-hidden bg-gray-200 shrink-0">
                         {item.image ? (
                           <img
-                            src={`http://localhost:5000${item.image}`}
+                            src={`http://76.13.19.103${item.image}`}
                             alt={item.title}
                             className={`w-full h-full object-cover ${
                               isLocked ? "grayscale opacity-60" : ""
@@ -216,7 +216,7 @@ export default function CourseDetail() {
                   <div className="relative w-24 h-16 sm:w-32 sm:h-20 rounded-lg overflow-hidden bg-gray-200 shrink-0">
                     {item.image ? (
                       <img
-                        src={`http://localhost:5000${item.image}`}
+                        src={`http://76.13.19.103${item.image}`}
                         alt={item.title}
                         className={`w-full h-full object-cover ${
                           item.isVip && !isVipUser ? "grayscale opacity-60" : ""

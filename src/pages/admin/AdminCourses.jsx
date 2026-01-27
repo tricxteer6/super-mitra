@@ -87,7 +87,7 @@ export default function AdminCourses() {
     });
 
     setPreviewImage(
-      course.thumbnail ? `http://localhost:5000${course.thumbnail}` : null,
+      course.thumbnail ? `http://76.13.19.103${course.thumbnail}` : null,
     );
 
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -333,7 +333,7 @@ export default function AdminCourses() {
                 <div className="relative h-36 bg-gray-200 overflow-hidden">
                   {c.image ? (
                     <img
-                      src={`http://localhost:5000${c.image}`}
+                      src={`http://76.13.19.103${c.image}`}
                       alt={c.title}
                       className="h-full w-full object-cover"
                     />

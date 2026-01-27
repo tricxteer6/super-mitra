@@ -24,7 +24,7 @@ export default function CourseCard({ course, isVipUser }) {
       <div className="relative w-full h-40 bg-gray-200 overflow-hidden">
         {course.image ? (
           <img
-            src={`http://localhost:5000${course.image}`}
+            src={`http://76.13.19.103${course.image}`}
             alt={course.title}
             className={`h-full w-full object-cover transition-transform duration-500
               ${isLocked ? "grayscale opacity-60" : "hover:scale-105"}`}
